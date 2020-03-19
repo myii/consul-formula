@@ -1,6 +1,7 @@
+---
 consul:
   # Start Consul agent service and enable it at boot time
-  service: True
+  service: true
 
   # Set user and group for Consul config files and running service
   user: consul
@@ -10,10 +11,10 @@ consul:
   download_host: releases.hashicorp.com
 
   config:
-    server: True
+    server: true
     bind_addr: 0.0.0.0
 
-    enable_debug: True
+    enable_debug: true
 
     datacenter: eu
 
@@ -42,7 +43,7 @@ consul:
 
 consul_template:
   # Start consul-template daemon and enable it at boot time
-  service: True
+  service: true
 
   config:
     consul: 127.0.0.1:8500

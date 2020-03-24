@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
 ---
 consul:
   # Start Consul agent service and enable it at boot time
@@ -57,5 +59,3 @@ consul_template:
           source: /etc/consul-template/tmpl-source/example.com.ctmpl
           destination: /etc/nginx/sites-enabled/example.com
           command: systemctl restart nginx
-
-# vim: ft=yaml

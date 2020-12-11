@@ -1,5 +1,32 @@
 # Changelog
 
+# [4.0.0](https://github.com/myii/consul-formula/compare/v3.0.0...v4.0.0) (2020-12-11)
+
+
+### Bug Fixes
+
+* replace deprecated ui option with ui_config ([2223c83](https://github.com/myii/consul-formula/commit/2223c83d1da61e9ca978a0ad0b07a97c23d818f1))
+
+
+### BREAKING CHANGES
+
+* This cannot be updated in a non-breaking fashion,
+but I chose the least disruptive route.
+
+* If both ui and ui_config.enabled are set , ui_config takes precedence.
+Hence, my change may enable the UI on machines which had previously set
+ui to false. This is arguably better than defaulting to false,
+which would disable the UI where it is supposed to be enabled.
+
+* Removing the option entirely breaks similarly if users rely on the formula
+defaults, since Consul's default is false and the formula's default used
+to be true.
+
+* The only other way to break less would be to set both options, but then
+users would also have override both (which is not obvious and very annoying)
+and there would still be no way forward to when Consul actually removes the
+deprecated option.
+
 # [3.0.0](https://github.com/myii/consul-formula/compare/v2.0.0...v3.0.0) (2020-12-11)
 
 

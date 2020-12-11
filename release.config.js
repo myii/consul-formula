@@ -1,5 +1,5 @@
 module.exports = {
-  branch: 'master',
+  branches: ['master', 'ci/test-all-instances-in-gitlab-ci'],
   repositoryUrl: 'https://github.com/myii/consul-formula',
   plugins: [
       ['@semantic-release/commit-analyzer', {

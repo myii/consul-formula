@@ -18,7 +18,7 @@ This list is sorted by the number of commits per contributor in *descending* ord
      - 30
    * - :raw-html-m2r:`<img class='float-left rounded-1' src='https://avatars2.githubusercontent.com/u/10231489?v=4' width='36' height='36' alt='@myii'>`
      - `@myii <https://github.com/myii>`_
-     - 28
+     - 29
    * - :raw-html-m2r:`<img class='float-left rounded-1' src='https://avatars3.githubusercontent.com/u/6760103?v=4' width='36' height='36' alt='@aabouzaid'>`
      - `@aabouzaid <https://github.com/aabouzaid>`_
      - 14
@@ -40,11 +40,11 @@ This list is sorted by the number of commits per contributor in *descending* ord
    * - :raw-html-m2r:`<img class='float-left rounded-1' src='https://avatars3.githubusercontent.com/u/196416?v=4' width='36' height='36' alt='@hugochinchilla'>`
      - `@hugochinchilla <https://github.com/hugochinchilla>`_
      - 3
-   * - :raw-html-m2r:`<img class='float-left rounded-1' src='https://avatars2.githubusercontent.com/u/4195158?v=4' width='36' height='36' alt='@dafyddj'>`
-     - `@dafyddj <https://github.com/dafyddj>`_
-     - 2
    * - :raw-html-m2r:`<img class='float-left rounded-1' src='https://avatars1.githubusercontent.com/u/911270?v=4' width='36' height='36' alt='@phoerious'>`
      - `@phoerious <https://github.com/phoerious>`_
+     - 3
+   * - :raw-html-m2r:`<img class='float-left rounded-1' src='https://avatars2.githubusercontent.com/u/4195158?v=4' width='36' height='36' alt='@dafyddj'>`
+     - `@dafyddj <https://github.com/dafyddj>`_
      - 2
    * - :raw-html-m2r:`<img class='float-left rounded-1' src='https://avatars2.githubusercontent.com/u/2222960?v=4' width='36' height='36' alt='@nickgarber'>`
      - `@nickgarber <https://github.com/nickgarber>`_
